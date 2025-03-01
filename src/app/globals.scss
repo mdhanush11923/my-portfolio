@@ -1,0 +1,28 @@
+@import "tailwind-preset-mantine";
+@import "./theme.scss";
+@import "tailwindcss";
+@import "@/components/sass/vendors/bootstrap.scss";
+
+@import "@/components/sass/abstracts/mixins";
+@import "@/components/sass/abstracts/variables";
+@import "@/components/sass/abstracts/helpers";
+
+@import "@/components/sass/base/base";
+@import "@/components/sass/base/typography";
+
+@import "@/components/sass/components/buttons";
+
+@import "@/components/sass/layout/footer";
+@import "@/components/sass/layout/sections";
+
+@import "@/components/sass/sections/about";
+@import "@/components/sass/sections/contact";
+@import "@/components/sass/sections/hero";
+@import "@/components/sass/sections/projects";
+
+
+@theme {
+  --color-primecolor: #02ADB0;
+  --color-secolor: #00C6AD;
+  --color-blackblue: #272341;
+}

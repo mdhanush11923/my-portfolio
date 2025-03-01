@@ -1,9 +1,0 @@
-@import "tailwind-preset-mantine";
-@import "./theme.css";
-@import "tailwindcss";
-
-@theme {
-  --color-primecolor: #02ADB0;
-  --color-secolor: #00C6AD;
-  --color-blackblue: #272341;
-}

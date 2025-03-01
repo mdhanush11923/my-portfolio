@@ -5,7 +5,7 @@ import {
   MantineProvider,
 } from "@mantine/core";
 import theme from "./theme";
-import "./globals.css";
+import "./globals.scss";
 import { Inconsolata, Montserrat, Poppins } from "next/font/google";
 
 const inconsolata = Inconsolata({
@@ -37,7 +37,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body className={`antialiased ${poppins.className}`}>
+      <body className={`antialiased ${poppins.className} bg-[#f1f1f1]`}>
         <MantineProvider theme={theme}>{children}</MantineProvider>
       </body>
     </html>
