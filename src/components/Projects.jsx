@@ -15,6 +15,14 @@ export default function Projects() {
             sourceCodeUrl="https://github.com/mdhanush11923/pizza-delivery-app"
             imageUrl="/assets/project0.png"
           />
+
+          <Project
+            title="Snack Squad"
+            description="A Jetpack Compose-based Android app for snack delivery, featuring an intuitive UI, order tracking, and seamless user experience."
+            liveUrl="" // No live URL since it's a mobile app
+            sourceCodeUrl="https://github.com/mdhanush11923/Snack-Squad"
+            imageUrl="/assets/project1.png"
+          />
         </div>
       </div>
     </section>
