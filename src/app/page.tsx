@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
+import Topbar from "@/components/Topbar";
 
 export default function HeroPage() {
   return (
@@ -23,6 +24,7 @@ export default function HeroPage() {
     //   </p>
     // </section>
     <div>
+      <Topbar />
       <div id="top"></div>
       <Hero />
       <About />
