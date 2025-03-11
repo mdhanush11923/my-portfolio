@@ -24,7 +24,6 @@ export default function HeroPage() {
     //   </p>
     // </section>
     <div>
-      <Topbar />
       <div id="top"></div>
       <Hero />
       <About />
