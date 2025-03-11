@@ -13,7 +13,7 @@ export default function Projects() {
             description="A full-stack pizza delivery app with authentication, ordering, and real-time tracking."
             liveUrl="https://pizza-delivery-lemon.vercel.app/dashboard"
             sourceCodeUrl="https://github.com/mdhanush11923/pizza-delivery-app"
-            imageUrl="/assets/project0.png"
+            imageUrl="/assets/project-zero.png"
           />
 
           <Project
