@@ -1,9 +1,11 @@
-export default function initScrollReveal(targetElements, defaultProps) {
-  if (!targetElements.length) return;
+import ScrollReveal from "scrollreveal";
 
-  ScrollReveal({ reset: false });
+export default function initScrollReveal(targetElements, defaultProps) {
+  if (typeof window === "undefined" || !targetElements.length) return;
+
+  const sr = ScrollReveal({ reset: false });
 
   targetElements.forEach(({ element, animation }) => {
-    ScrollReveal().reveal(element, Object.assign({}, defaultProps, animation));
+    sr.reveal(element, Object.assign({}, defaultProps, animation));
   });
 }
