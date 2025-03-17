@@ -15,7 +15,6 @@ export default function About() {
                 className="img-fluid rounded shadow-lg"
                 width={300}
                 height={300}
-                y
                 priority
               />
             </div>
