@@ -23,6 +23,14 @@ export default function Projects() {
             sourceCodeUrl="https://github.com/mdhanush11923/Snack-Squad"
             imageUrl="/assets/project1.png"
           />
+
+          <Project
+            title="Face Recognition Brain"
+            description="A full-stack web application built from scratch with authentication and advanced face detection capabilities, developed through the Zero to Mastery Academy."
+            liveUrl="" // No live URL since it's a mobile app
+            sourceCodeUrl="https://github.com/mdhanush11923/Snack-Squad"
+            imageUrl="/assets/project2.png"
+          />
         </div>
       </div>
     </section>

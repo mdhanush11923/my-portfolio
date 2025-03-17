@@ -23,8 +23,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Next App Mantine Tailwind Template",
-  description: "Next App Mantine Tailwind Template",
+  title: "Portfolio",
+  description: "Next App Mantine Tailwind",
 };
 
 export default function RootLayout({
