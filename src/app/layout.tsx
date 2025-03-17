@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import FontAwesomeScript from "@/components/FontAwesomeScript";
 import {
   ColorSchemeScript,
   mantineHtmlProps,
@@ -7,6 +8,7 @@ import {
 import theme from "./theme";
 import "./globals.scss";
 import { Inconsolata, Montserrat, Poppins } from "next/font/google";
+import Script from "next/script";
 
 const inconsolata = Inconsolata({
   subsets: ["latin"],
@@ -39,6 +41,7 @@ export default function RootLayout({
       </head>
       <body className={`antialiased ${poppins.className} bg-[#f1f1f1]`}>
         <MantineProvider theme={theme}>{children}</MantineProvider>
+        <FontAwesomeScript />
       </body>
     </html>
   );

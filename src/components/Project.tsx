@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import TiltComponent from "./TiltComponent";
 
 interface ProjectProps {
   title: string;
@@ -24,20 +25,40 @@ export default function Project({
           <div>
             <p className="mb-4">{description}</p>
           </div>
-          <a rel="noreferrer" target="_blank" className="cta-btn cta-btn--hero" href={liveUrl}>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="cta-btn cta-btn--hero"
+            href={liveUrl}
+          >
             See Live
           </a>
-          <a rel="noreferrer" target="_blank" className="cta-btn text-color-main" href={sourceCodeUrl}>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className="cta-btn text-color-main"
+            href={sourceCodeUrl}
+          >
             Source Code
           </a>
         </div>
       </div>
       <div className="col-lg-8 col-sm-12">
-        <div className="project-wrapper__image load-hidden">
+        <div
+          className="project-wrapper__image load-hidden "
+          suppressHydrationWarning={true}
+        >
           <a rel="noreferrer" href={liveUrl} target="_blank">
-            <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" className="thumbnail rounded js-tilt">
-              <Image alt={`${title} Image`} className="img-fluid" src={imageUrl} width={800} height={500} priority />
-            </div>
+            <TiltComponent>
+              <Image
+                alt={`${title} Image`}
+                className="img-fluid"
+                src={imageUrl}
+                width={800}
+                height={500}
+                priority
+              />
+            </TiltComponent>
           </a>
         </div>
       </div>
