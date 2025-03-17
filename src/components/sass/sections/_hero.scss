@@ -58,12 +58,15 @@
       justify-content: center;
     }
 
+    @include respond(phone) {
+      justify-content: flex-start;
+    }
+
     & a {
       font-size: 2.4rem;
 
       @include respond(phone) {
         font-size: 2rem;
-        justify-content: left;
       }
     }
   }
