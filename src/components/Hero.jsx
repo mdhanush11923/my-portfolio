@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Hero() {
   return (
     <section id="hero" className="jumbotron">
       <div className="container">
         <h1 className="hero-title load-hidden">
-          Hi, my name is <span className="text-color-main">M Dhanush</span>
+          Hi, my name is <span className="text-color-main">Dhanush</span>
           <br />
           I&apos;m the Developer you need.
         </h1>
