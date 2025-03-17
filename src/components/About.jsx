@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="container">
-        <h2 className="section-title load-hidden">About me</h2>
+        <h2 className="section-title load-hidden text-black">About me</h2>
         <div className="row about-wrapper">
           <div className="col-md-6 col-sm-12">
             <div className="about-wrapper__image load-hidden">
@@ -21,26 +21,26 @@ export default function About() {
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="about-wrapper__info load-hidden">
-              <p className="about-wrapper__info-text font-montserrat">
+              <p className="about-wrapper__info-text font-montserrat text-blackblue">
                 I&apos;ve always been a creative person. Sketching random
                 things, designing weird stuff that made no sense — but I loved
                 it;
               </p>
 
-              <p className="about-wrapper__info-text font-montserrat">
+              <p className="about-wrapper__info-text font-montserrat text-blackblue">
                 At the same time, I was naturally curious about how things work.
                 I enjoyed finding my own solutions to problems instead of
                 blindly following those boring school-taught methods everyone
                 memorized;
               </p>
 
-              <p className="about-wrapper__info-text font-montserrat">
+              <p className="about-wrapper__info-text font-montserrat text-blackblue">
                 When I discovered <strong>web development</strong>, it just
                 clicked — the perfect blend of{" "}
                 <strong>creativity and logic</strong>;
               </p>
 
-              <p className="about-wrapper__info-text font-montserrat">
+              <p className="about-wrapper__info-text font-montserrat text-blackblue">
                 Since then, I’ve been hooked. Every project feels like an
                 opportunity to
                 <strong>
@@ -54,7 +54,7 @@ export default function About() {
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  className="cta-btn cta-btn--resume"
+                  className="cta-btn cta-btn--resume "
                   href="/assets/resume.pdf"
                 >
                   View Resume
