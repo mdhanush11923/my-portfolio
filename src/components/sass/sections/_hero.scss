@@ -63,7 +63,7 @@
 
       @include respond(phone) {
         font-size: 2rem;
-        text-align: left;
+        justify-content: left;
       }
     }
   }
