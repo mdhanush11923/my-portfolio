@@ -20,7 +20,7 @@ export default function About() {
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
-            <div className="flex flex-column about-wrapper__info load-hidden gap-3">
+            <div className="flex flex-column about-wrapper__info load-hidden opacity-80 text-black/80 gap-3">
               <p className="about-wrapper__info-text font-montserrat text-blackblue">
                 I&apos;ve always been a creative person. Sketching random
                 things, designing weird stuff that made no sense — but I loved

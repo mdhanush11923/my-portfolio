@@ -17,6 +17,14 @@ export default function Projects() {
           />
 
           <Project
+            title="Discuss"
+            description="Discuss is a high-performance discussion platform with nested comments, real-time updates, and secure authentication. I built it using Next.js, Prisma, and PostgreSQL, optimizing performance with hybrid rendering and caching strategies."
+            liveUrl="https://dizzguzz.vercel.app"
+            sourceCodeUrl="https://github.com/mdhanush11923/discuss"
+            imageUrl="/assets/project3.png"
+          />
+
+          <Project
             title="Snack Squad"
             description="A Jetpack Compose-based Android app for snack delivery, featuring an intuitive UI, order tracking, and seamless user experience."
             liveUrl="" // No live URL since it's a mobile app
@@ -28,7 +36,7 @@ export default function Projects() {
             title="Face Recognition Brain"
             description="A full-stack web application built from scratch with authentication and advanced face detection capabilities, developed through the Zero to Mastery Academy."
             liveUrl="" // No live URL since it's a mobile app
-            sourceCodeUrl="https://github.com/mdhanush11923/Snack-Squad"
+            sourceCodeUrl="https://github.com/mdhanush11923/face-recognition-brain"
             imageUrl="/assets/project2.png"
           />
         </div>

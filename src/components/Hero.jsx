@@ -9,7 +9,7 @@ export default function Hero() {
           <br />
           I&apos;m the Developer you need.
         </h1>
-        <p className="hero-cta load-hidden justify-start">
+        <p className="hero-cta load-hidden">
           <a rel="noreferrer" className="cta-btn cta-btn--hero" href="#about">
             Know more
           </a>
